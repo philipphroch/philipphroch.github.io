@@ -1,0 +1,238 @@
+@media only screen and (max-width: 1550px) {
+    #image {
+        margin-top: 10px;
+    }
+    .aboutSection .blueRect {
+        margin: -3px 15% 0 15%;
+    }
+    .aboutSection .aboutText {
+        margin: -300px 20% 23%;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    #landingScreen {
+        margin-top: 5px;
+    }
+    #landingScreen h1 {
+        font-size: 60px;
+    }
+    #landingScreen h2 {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .aboutSection .aboutText {
+        font-size: 30px;
+    }
+    .bsp img {
+        width: 550px;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .mySkills .creativeMind {
+        width: 350px;
+    }
+    .mySkills .strategicMind {
+        width: 350px;
+        margin-right: 5%;
+    }
+    .mySkills h4 {
+        font-size: 32px;
+    }
+    .mySkills .content {
+        margin: 30px 0 0 40px;
+        font-size: 25px;
+    }
+    .mySkills .list {
+        font-size: 25px;
+    }
+    .mySkills img {
+        width: 80px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .aboutSection .blueRect {
+        margin: -3px 10%0 10%;
+    }
+    .aboutSection .aboutText {
+        margin: -300px 15% 25%;
+    }
+    .mySkills .creativeMind {
+        width: 300px;
+    }
+    .mySkills .strategicMind {
+        width: 300px;
+        margin-right: 5%;
+    }
+    .mySkills h4 {
+        font-size: 28px;
+    }
+    .mySkills .content {
+        margin: 20px 0 0 30px;
+        font-size: 20px;
+    }
+    .mySkills .list {
+        font-size: 22px;
+        margin: 30px 30px 0 50px;
+    }
+    .mySkills img {
+        width: 60px;
+    }
+    .bsp img {
+        width: 400px;
+        height: auto;
+    }
+    .recentWork h5 {
+        color: #4285F4;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 60px;
+    }
+}
+@media only screen and (max-width: 834px) {
+    #landingScreen h1 {
+        font-size: 50px;
+    }
+    #landingScreen h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .aboutSection .aboutText {
+        font-size: 22px;
+    }
+    #skillRect {
+        font-size: 30px;
+    }
+    .mySkills {
+        margin-top: 0;
+    }
+    .mindContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        text-align: center !important;
+        align-items: center !important;
+    }
+    .strategicMind {
+        margin-right: 0 !important;
+        margin-bottom: 70px;
+    }
+    .mySkills .content {
+        margin: 30px 30px 0 30px;
+    }
+    .mySkills .list {
+        list-style-type: none !important;
+        font-size: 25px;
+        margin: 40px 10px 0 10px;
+    }
+    .mySkills li {
+        list-style-type: none !important;
+    }
+    .recentWork .workWrapper {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 45px 50px;
+    }
+    .dribbleLink a {
+        color: #4285F4;
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    .dribbleLink img {
+        padding-top: 2px;
+        width: 30px;
+        height: 30px;
+    }
+    .whereCanIBuy h6 {
+        font-size: 40px;
+    }
+    .whereCanIBuy p {
+        font-size: 22px;
+    }
+    #fiverrButton {
+        font-size: 25px;
+    }
+    #contactMe {
+        font-size: 25px;
+    }
+    .Impressum p {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    header img {
+        width: 50px;
+    }
+    #logoLink {
+        padding: 0;
+    }
+    header a {
+        display: block;
+        border: 2px solid #4285F4;
+        border-radius: 30px;
+        color: #4285F4;
+        font-weight: bold ;
+        font-size: 20px ;
+        padding: 4px 10px;
+    }
+    #landingScreen h1 {
+        font-size: 40px;
+    }
+    #landingScreen h2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .learnMore {
+        font-size: 25px;
+    }
+    #image {
+        margin: 100px 0 0 0;
+    }
+    .aboutSection .blueRect {
+        margin: -3px 0 0 0;
+        z-index: -1;
+        position: relative;
+        padding: 5%  5%  300px 0;
+    }
+    .aboutSection .aboutText {
+        font-size: 20px;
+        margin: -300px 0 50%;
+    }
+    .recentWork .bsp img {
+        width: 300px;
+    }
+    .dribbleLink {
+        margin: 100px 10% 200px 10%;
+    }
+    .dribbleLink a {
+        color: #4285F4;
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    .whereCanIBuy h6 {
+        font-size: 30px;
+    }
+    .whereCanIBuy p {
+        font-size: 20px;
+    }
+    #fiverrButton {
+        font-size: 22px;
+        padding: 10px 10px;
+    }
+    #contactMe {
+        font-size: 22px;
+        padding: 10px 10px;
+    }
+    #socialMedia li img {
+        width: 40px;
+    }
+    .Impressum p {
+        font-size: 10px;
+    }
+    .Impressum {
+        margin-top: 100px;
+    }
+}

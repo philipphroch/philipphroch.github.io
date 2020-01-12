@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="slideshow.css">
+    <link rel="stylesheet" href="mediascreenslideshow.css">
+    <title>My work</title>
+</head>
+<body>
+    <div class="slideshow-container">
+        <h1>Gallery</h1>
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade" class="one">
+            <div class="numbertext"></div>
+            <img src="img/parnasPizzaBig.png" style="width:100%">
+            <div class="text"></div>
+        </div>
+        
+        <div class="mySlides fade" id="two">
+            <div class="numbertext"></div>
+            <img src="img/savethetreesBig.png" style="width:100%">
+            <div class="text"></div>
+        </div>
+        
+        <div class="mySlides fade" id="three">
+            <div class="numbertext"></div>
+            <img src="img/hustockfinancesBig.png" style="width:100%">
+            <div class="text"></div>
+        </div>
+        
+            <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <br>
+        
+            <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+    <section class="sidebar">
+        <div>
+            <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path d="M20 7.093v-5.093h-3v2.093l3 3zm4 5.907l-12-12-12 12h3v10h7v-5h4v5h7v-10h3zm-5 8h-3v-5h-8v5h-3v-10.26l7-6.912 7 6.99v10.182z"/></svg></a>
+        </div>
+    </section>
+</body>
+</html>

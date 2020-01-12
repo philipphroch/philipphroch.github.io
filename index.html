@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Philipp Hroch | Webdesigner</title>
+    <link rel="stylesheet" href="https://use.typekit.net/ewh3mwu.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediascreens.css">
+</head>
+<body>
+    <header>
+        <div id="logo"><a href="#aboutSection" id="logoLink"><img src="img/logo.png" alt=""></a></div>
+        <div id="contactMee"><a href="contact.html">Contact me</a></div>
+    </header>
+    <section id="landingScreen">
+        <h1>Hey, I'm Philipp</h1>
+        <h2>Professional Webdesigner and Developer</h2>
+        <a class="learnMore" href="#aboutSection">Learn More</a>
+    </section>
+    <div id="image">
+        <span class="helper"></span><img src="img/2020image.png" alt="">
+    </div>
+    <section class="aboutSection" id="aboutSection">
+        <div class="blueRect" id="aboutRect"></div>
+        <div class="aboutText">
+            <p>
+                 I am a professional webdesigner/developer located in Graz, Austria (The one with the mountains). I enjoy creating clean and modern 
+                 websites. My goal is to grow with my projects and give you the best possible results.
+             </p>
+             <img src="img/Linie 1.png" alt="">
+         </div>
+    </section>
+    <section class="mySkills">
+        <div class="blueRect" id="skillRect">
+            <h3>My Skills</h3>
+        </div>
+        <div class="mindContainer">
+            <div class="strategicMind">
+                <div class="header" id="strategic">
+                    <img src="img/strategicMind.png" alt="">
+                    <div>
+                        <h4>Strategic Mind</h4>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>The user experience is the most important Thing to me. Websites having a good ux design is the key to modern webdesign.</p>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>Wireframing</li>
+                        <li>Prototyping</li>
+                        <li>Development planning</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="creativeMind">
+                <div class="header" id="creative">
+                    <img src="img/creativeMind.png" alt="">
+                    <div>
+                        <h4>Creative Mind</h4>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>And if it works, we are going to make it look real good. The design and look of a page is the second most important thing.</p>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>Design research</li>
+                        <li>Animations and Interactions</li>
+                        <li>Responsive Designs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="recentWork">
+        <h5>Here is some of my recent Work</h5>
+        <div class="workWrapper">
+            <div class="bsp"><a href="slideshow.html"><img src="img/parnasPizza.png" alt=""></a></div>
+            <div class="bsp"><a href="slideshow.html"><img src="img/savethetrees.png" alt=""></a></div>
+            <div class="bsp"><a href="slideshow.html"><img src="img/travelersapp.png" alt=""></a></div>
+            <div class="bsp"><a href="slideshow.html"><img src="img/hustockfinances.png" alt=""></a></div>
+        </div>
+        <div class="dribbleLink">
+            <a href="https://dribbble.com/Demaskiert">More of my work on</a>
+            <img src="img/dribble.png" alt="Dribble">
+        </div>
+    </section>
+    <section class="whereCanIBuy">
+        <div class="blueRect">
+            <h6>Where can I buy your Services?</h6>
+            <p>If you are interested in my work and Need a webdesign you can check <br> out my gig on Fiverr or contact me via email.</p>
+            <div class="fiverr">
+                <input id="fiverrButton" type="button" onclick="location.href='https://www.fiverr.com/share/xXK8Rq';" value="Go to Fiverr"/>
+                <input id="contactMe" type="button" onclick="location.href='contact.html';" value="Contact Me"/>
+            </div>
+            <footer>
+                <a href="#aboutSection" id="logoLinkTwo"><img src="img/Gruppe 11.png" alt=""></a>
+                <div id="socialMedia">
+                    <ul>
+                        <li><a href="https://twitter.com/HrochPhilipp"><img src="img/iconmonstr-twitter-3.png" alt=""></a></li>
+                        <li class="email"><a href="contact.html"><img src="img/iconmonstr-email-1.png" alt=""></a></li>
+                        <li><a href="https://www.facebook.com/philipp.hroch.1"><img src="img/iconmonstr-facebook-3.png" alt=""></a></li>
+                        <li><a href="https://www.facebook.com/philipp.hroch.1"><img src="img/iconmonstr-instagram-13.png" alt=""></a></li>
+                        <li id="instagram"><a href="https://dribbble.com/Demaskiert"><img src="img/iconmonstr-dribbble-3.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="Impressum">
+                    <p>logos by: smashicons, Freepik, Iconmonstr</p>
+                    <p>Illustration by unDraw</p>
+                    <p>Website made by me, Philipp Hroch 2020</p>
+                </div>
+            </footer>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+    // Smooth scrolling when clicking an anchor link
+    $(document).ready(function(){
+    
+        // Klick auf eien Link, der eine Raute (# = Anker) enthält
+        $('a[href^="#"]').on('click',function(e) {
+            e.preventDefault();
+    
+            var target = this.hash;
+            var $target = $(target);
+    
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, 500, 'swing', function () {
+                window.location.hash = target;
+            });
+        });
+    });
+    </script>
+</body>
+</html>

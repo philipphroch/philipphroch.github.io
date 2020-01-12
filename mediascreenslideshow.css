@@ -1,0 +1,27 @@
+@media only screen and (max-width: 834px) {
+    body {
+        display: block;
+    }
+    h1 {
+        padding-top: 50px;
+    }
+    .sidebar {
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        height: 100px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .sidebar div {
+        padding-top: 20px;
+    }
+    .sidebar a {
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 414px) {
+    h1 {
+        font-size: 50px;
+    }
+}
